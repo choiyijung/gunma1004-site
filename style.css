@@ -1,0 +1,470 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #ffffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* 상단 메뉴 */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #eeeeee;
+}
+
+.header-inner {
+  width: min(1100px, calc(100% - 40px));
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #7138d0;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #7138d0;
+}
+
+
+/* 메인 배너 */
+
+.hero {
+  min-height: 620px;
+  padding: 100px 20px;
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(
+      circle at 80% 25%,
+      rgba(255, 190, 229, 0.75),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 15% 80%,
+      rgba(190, 175, 255, 0.75),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #fff8ff,
+      #eee8ff
+    );
+}
+
+.hero-content {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+.hero-label,
+.section-label {
+  margin: 0 0 15px;
+  color: #7138d0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 64px;
+  line-height: 1.2;
+  letter-spacing: -3px;
+}
+
+.hero-description {
+  max-width: 600px;
+  margin: 25px 0 0;
+  color: #5d5863;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+  display: flex;
+  gap: 12px;
+}
+
+.main-button,
+.line-button {
+  padding: 16px 27px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.main-button {
+  color: white;
+  background: #7138d0;
+}
+
+.line-button {
+  color: #7138d0;
+  background: white;
+  border: 1px solid #7138d0;
+}
+
+
+/* 지역 안내 */
+
+.section {
+  width: min(1100px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.section h2 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.section > p:last-of-type {
+  color: #666666;
+}
+
+.region-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.region-card {
+  min-height: 220px;
+  padding: 32px;
+  border: 1px solid #e8e1f0;
+  border-radius: 22px;
+  background: white;
+  box-shadow: 0 15px 40px rgba(72, 44, 105, 0.08);
+}
+
+.region-card h3 {
+  margin: 0 0 15px;
+  color: #7138d0;
+  font-size: 26px;
+}
+
+.region-card p {
+  color: #666666;
+}
+
+
+/* 상담 안내 */
+
+.contact {
+  width: min(1100px, calc(100% - 40px));
+  margin: 0 auto 100px;
+  padding: 50px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+    135deg,
+    #7138d0,
+    #b957b7
+  );
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact h2 {
+  margin: 10px 0 25px;
+  font-size: 35px;
+}
+
+.contact a {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: #7138d0;
+  background: white;
+  font-weight: bold;
+}
+
+
+/* 하단 */
+
+.footer {
+  padding: 45px 20px;
+  text-align: center;
+  color: #c9c4cf;
+  background: #211c27;
+}
+
+.footer strong {
+  color: white;
+  font-size: 21px;
+}
+
+
+/* 모바일 */
+
+@media (max-width: 700px) {
+
+  .header-inner {
+    height: auto;
+    padding: 18px 0;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu a {
+    font-size: 13px;
+  }
+
+  .hero {
+    min-height: 560px;
+    padding: 70px 20px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+    letter-spacing: -2px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .main-button,
+  .line-button {
+    text-align: center;
+  }
+
+  .region-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact {
+    padding: 40px 22px;
+  }
+}/* 코스 안내 */
+
+.course-section {
+  padding: 100px 20px;
+  text-align: center;
+  background: #f8f4fc;
+}
+
+.course-section h2 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.course-intro {
+  margin: 15px 0 40px;
+  color: #666666;
+}
+
+.course-grid {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.course-card {
+  padding: 35px;
+  border-radius: 22px;
+  background: white;
+  box-shadow: 0 15px 40px rgba(72, 44, 105, 0.08);
+}
+
+.course-card h3 {
+  margin: 0 0 15px;
+  color: #7138d0;
+  font-size: 25px;
+}
+
+.course-card strong {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 21px;
+}
+
+.course-card p {
+  color: #666666;
+  line-height: 1.7;
+}
+
+.course-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 13px 25px;
+  border-radius: 25px;
+  color: white;
+  background: #7138d0;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+}/* 이용 방법 */
+
+.guide-section {
+  width: min(1100px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.guide-section h2 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.guide-intro {
+  margin: 15px 0 40px;
+  color: #666666;
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.guide-card {
+  padding: 30px 24px;
+  border-radius: 20px;
+  text-align: left;
+  background: #f8f4fc;
+}
+
+.guide-card strong {
+  color: #7138d0;
+  font-size: 13px;
+}
+
+.guide-card h3 {
+  margin: 18px 0 10px;
+  font-size: 21px;
+}
+
+.guide-card p {
+  margin: 0;
+  color: #666666;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .guide-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .guide-grid {
+    grid-template-columns: 1fr;
+  }
+}/* 자주 묻는 질문 */
+
+.faq-section {
+  width: min(900px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.faq-section > .section-label,
+.faq-section > h2 {
+  text-align: center;
+}
+
+.faq-section h2 {
+  margin: 0 0 45px;
+  font-size: 42px;
+}
+
+.faq-list {
+  border-top: 1px solid #dddddd;
+}
+
+.faq-list details {
+  padding: 22px 5px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.faq-list details p {
+  margin: 18px 0 0;
+  color: #666666;
+  line-height: 1.8;
+}
+
+.faq-list summary:hover {
+  color: #7138d0;
+}/* 모바일 하단 전화 버튼 */
+
+.mobile-call-button {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding-bottom: 65px;
+  }
+
+  .mobile-call-button {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+    display: block;
+    padding: 17px 20px;
+    text-align: center;
+    color: white;
+    background: #7138d0;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.12);
+  }
+}
