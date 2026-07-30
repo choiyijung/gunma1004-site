@@ -468,3 +468,12 @@ a {
     box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.12);
   }
 }
+
+/* 지역별 외부 바로가기 버튼 */
+.popular-link-button {
+  box-shadow: 0 10px 22px rgba(113, 56, 208, 0.22);
+}
+
+.popular-region-buttons {
+  margin-top: 26px;
+}
