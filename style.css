@@ -477,3 +477,28 @@ a {
 .popular-region-buttons {
   margin-top: 26px;
 }
+
+
+/* 지역 이미지 */
+.local-image {
+  width: min(1100px, calc(100% - 40px));
+  margin: 0 auto 40px;
+}
+
+.local-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+  box-shadow: 0 12px 30px rgba(32, 24, 64, 0.12);
+}
+
+@media (max-width: 768px) {
+  .local-image {
+    margin: 0 auto 28px;
+  }
+
+  .local-image img {
+    border-radius: 22px;
+  }
+}
