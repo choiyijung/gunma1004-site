@@ -1,0 +1,114 @@
+SEO 타이틀/메타/캐노니컬 적용 확인
+
+전체 HTML 처리: 1277개
+고유 title 수: 1277개
+고유 meta description 수: 1277개
+canonical 적용: 1277개
+피치/브랜드형 title 잔여: 0개
+
+적용 기준
+- 브랜드명 없이 title 생성
+- 지역명 출장마사지 키워드 앞쪽 배치
+- 구/시/동/역/상권/인근지역 명칭을 섞어 중복 방지
+- canonical은 https://xn--z69au6whlfiln.shop 기준 현재 페이지 URL로 적용
+
+샘플
+[index.html]
+title: 서울·인천·경기 출장마사지 안내 - 강남·수원·부평 주요권역
+description: 서울·인천·경기 출장마사지 정보를 강남역, 수원역, 부평역, 송도, 일산 등 주요 생활권 기준으로 정리했습니다. 지역별 바로가기와 예약 전 확인사항을 함께 살펴볼 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/
+
+[gyeonggi/index.html]
+title: 경기도 31개 시·군 출장마사지 추천 - 수원·성남·고양·용인 생활권
+description: 경기도 31개 시·군 출장마사지 정보를 찾는 분을 위해 수원·성남·고양·용인 인근 거점과 주변 지역 확인 내용을 함께 담았습니다. 버튼을 통해 지역 업체도 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/gyeonggi/
+
+[incheon/index.html]
+title: 인천 2군 9구 출장마사지 추천 - 송도·부평·구월동·청라 생활권
+description: 인천 2군 9구 출장마사지 관련 정보를 송도·부평·구월동·청라 생활 반경 기준으로 정리했습니다. 가까운 지역 목록과 예약 전 체크포인트를 함께 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/incheon/
+
+[layout/index.html]
+title: 지역별 출장마사지 레이아웃 안내 - 서울·인천·경기 구성 확인
+description: 서울, 인천, 경기 출장마사지 지역 페이지 구성을 확인할 수 있는 레이아웃 안내입니다. 지역 카드, 버튼, 확인사항, 이미지 배치 흐름을 한눈에 살펴볼 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/layout/
+
+[seoul/index.html]
+title: 서울 25개 구 출장마사지 안내 - 강남역·잠실·홍대입구·여의도 주요권역
+description: 서울 25개 구 출장마사지 안내 페이지입니다. 강남역·잠실·홍대입구·여의도 주변 동선, 이용 방법, 확인사항을 구분해 지역별 선택이 쉽도록 구성했습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/
+
+[seoul/seongbuk-gu/index.html]
+title: 서울 성북구 출장마사지 추천 - 성신여대입구·길음·돈암·안암 생활권
+description: 서울 성북구 출장마사지 관련 정보를 성신여대입구·길음·돈암·안암 생활 반경 기준으로 정리했습니다. 가까운 지역 목록과 예약 전 체크포인트를 함께 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/seongbuk-gu/
+
+[seoul/jung-gu/index.html]
+title: 서울 중구 출장마사지 확인 - 을지로·명동·서울역·동대문역사문화공원 중심권
+description: 서울 중구 출장마사지 정보를 찾는 분을 위해 을지로·명동·서울역·동대문역사문화공원 인근 거점과 주변 지역 확인 내용을 함께 담았습니다. 버튼을 통해 지역 업체도 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/jung-gu/
+
+[seoul/yangcheon-gu/index.html]
+title: 서울 양천구 출장마사지 확인 - 목동·오목교·신정·신월 중심권
+description: 서울 양천구 출장마사지 페이지는 목동·오목교·신정·신월 주변 이용 흐름을 참고해 구성했습니다. 지역별 바로가기와 주요 확인사항을 간단히 비교할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/yangcheon-gu/
+
+[seoul/gangseo-gu/index.html]
+title: 서울 강서구 출장마사지 안내 - 마곡·발산·가양·화곡 주요권역
+description: 서울 강서구 출장마사지 페이지는 마곡·발산·가양·화곡 주변 이용 흐름을 참고해 구성했습니다. 지역별 바로가기와 주요 확인사항을 간단히 비교할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/gangseo-gu/
+
+[seoul/yeongdeungpo-gu/index.html]
+title: 서울 영등포구 출장마사지 안내 - 여의도·영등포역·문래·당산 주요권역
+description: 서울 영등포구 출장마사지 관련 정보를 여의도·영등포역·문래·당산 생활 반경 기준으로 정리했습니다. 가까운 지역 목록과 예약 전 체크포인트를 함께 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/yeongdeungpo-gu/
+
+[seoul/gangdong-gu/index.html]
+title: 서울 강동구 출장마사지 확인 - 천호·길동·암사·명일 중심권
+description: 서울 강동구 출장마사지 안내 페이지입니다. 천호·길동·암사·명일 주변 동선, 이용 방법, 확인사항을 구분해 지역별 선택이 쉽도록 구성했습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/gangdong-gu/
+
+[seoul/dongdaemun-gu/index.html]
+title: 서울 동대문구 출장마사지 확인 - 청량리·회기·장안·답십리 중심권
+description: 서울 동대문구 출장마사지 정보를 청량리·회기·장안·답십리 중심 생활권과 함께 정리했습니다. 지역 업체 바로가기와 예약 전 확인사항을 한 페이지에서 살펴볼 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/dongdaemun-gu/
+
+[seoul/geumcheon-gu/index.html]
+title: 서울 금천구 출장마사지 안내 - 가산디지털단지·독산·시흥사거리·금천구청 주요권역
+description: 서울 금천구 출장마사지 정보를 찾는 분을 위해 가산디지털단지·독산·시흥사거리·금천구청 인근 거점과 주변 지역 확인 내용을 함께 담았습니다. 버튼을 통해 지역 업체도 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/geumcheon-gu/
+
+[seoul/seongdong-gu/index.html]
+title: 서울 성동구 출장마사지 확인 - 성수·왕십리·서울숲·뚝섬 중심권
+description: 서울 성동구 출장마사지 정보를 찾는 분을 위해 성수·왕십리·서울숲·뚝섬 인근 거점과 주변 지역 확인 내용을 함께 담았습니다. 버튼을 통해 지역 업체도 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/seongdong-gu/
+
+[seoul/seocho-gu/index.html]
+title: 서울 서초구 출장마사지 안내 - 교대역·양재·반포·고속터미널 주요권역
+description: 서울 서초구 출장마사지 안내 페이지입니다. 교대역·양재·반포·고속터미널 주변 동선, 이용 방법, 확인사항을 구분해 지역별 선택이 쉽도록 구성했습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/seocho-gu/
+
+[seoul/dongjak-gu/index.html]
+title: 서울 동작구 출장마사지 확인 - 사당·노량진·상도·흑석 중심권
+description: 서울 동작구 출장마사지 안내 페이지입니다. 사당·노량진·상도·흑석 주변 동선, 이용 방법, 확인사항을 구분해 지역별 선택이 쉽도록 구성했습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/dongjak-gu/
+
+[seoul/gwangjin-gu/index.html]
+title: 서울 광진구 출장마사지 안내 - 건대입구·구의·자양·아차산 주요권역
+description: 서울 광진구 출장마사지 정보를 찾는 분을 위해 건대입구·구의·자양·아차산 인근 거점과 주변 지역 확인 내용을 함께 담았습니다. 버튼을 통해 지역 업체도 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/gwangjin-gu/
+
+[seoul/yongsan-gu/index.html]
+title: 서울 용산구 출장마사지 확인 - 이태원·한남·용산역·삼각지 중심권
+description: 서울 용산구 출장마사지 정보를 이태원·한남·용산역·삼각지 중심 생활권과 함께 정리했습니다. 지역 업체 바로가기와 예약 전 확인사항을 한 페이지에서 살펴볼 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/yongsan-gu/
+
+[seoul/gangnam-gu/index.html]
+title: 서울 강남구 출장마사지 안내 - 신사·논현·역삼·강남역 주요권역
+description: 서울 강남구 출장마사지 안내 페이지입니다. 신사·논현·역삼·강남역 주변 동선, 이용 방법, 확인사항을 구분해 지역별 선택이 쉽도록 구성했습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/gangnam-gu/
+
+[seoul/jungnang-gu/index.html]
+title: 서울 중랑구 출장마사지 안내 - 강남역·잠실·홍대입구·여의도 주요권역
+description: 서울 중랑구 출장마사지 관련 정보를 강남역·잠실·홍대입구·여의도 생활 반경 기준으로 정리했습니다. 가까운 지역 목록과 예약 전 체크포인트를 함께 확인할 수 있습니다.
+canonical: https://xn--z69au6whlfiln.shop/seoul/jungnang-gu/
